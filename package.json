@@ -1,0 +1,16 @@
+{
+  "name": "hotdropic",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "The Hot Dropic: a trend-driven dropshipping store. Meme tees (Printful) + viral gadgets (CJ Dropshipping), Stripe checkout, auto trend scanner and auto promotion, on Cloudflare Workers.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test scripts/test.mjs",
+    "dev": "npx wrangler dev",
+    "designs": "python3 scripts/make-designs.py"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

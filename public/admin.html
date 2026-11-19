@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0b0f">
+<meta name="robots" content="noindex, nofollow">
+<title>Admin | The Hot Dropic</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/admin.css">
+<script type="module" src="/js/admin.js"></script>
+</head>
+<body class="admin">
+<header class="top">
+  <a class="logo" href="/" aria-label="View store"><img src="/img/logo.svg" alt="The Hot Dropic" width="300" height="34"></a>
+  <span class="adm-tag">Admin</span>
+  <span class="spacer"></span>
+  <a class="btn small" href="/" target="_blank" rel="noopener">View store</a>
+  <button class="btn small" id="logout" type="button" hidden>Sign out</button>
+</header>
+
+<section class="login" id="login" hidden>
+  <form class="panel" id="loginform">
+    <h1>Owner sign-in</h1>
+    <p class="meta">Use the ADMIN_PASSWORD you set in Cloudflare.</p>
+    <div class="field"><label for="pw">Password</label><input id="pw" type="password" autocomplete="current-password" required></div>
+    <p class="err" id="loginerr" role="alert" hidden></p>
+    <button class="btn hot wide" type="submit">Sign in</button>
+  </form>
+</section>
+
+<main class="adm" id="dash" hidden></main>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

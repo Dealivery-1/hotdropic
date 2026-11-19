@@ -1,0 +1,15 @@
+{
+  "name": "The Hot Dropic",
+  "shortName": "Hot Dropic",
+  "tagline": "What's hot right now, dropped to your door.",
+  "description": "The Hot Dropic scans what's going viral on TikTok Shop, meme pages and dropshipping marketplaces, then drops the hottest finds here: meme tees, gadgets, room glow-ups and more.",
+  "url": "https://hotdropic.wolfmaddox07.workers.dev",
+  "supportEmail": "wolfmaddox07@gmail.com",
+  "ownerName": "Maddox Wolf",
+  "ownerState": "Missouri",
+  "currency": "usd",
+  "shipCountries": ["US"],
+  "verification": {
+    "google": ""
+  }
+}

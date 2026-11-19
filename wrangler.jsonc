@@ -1,0 +1,23 @@
+// Cloudflare Workers settings (the site runs as the Worker "hotdropic").
+// Files in public/ are served directly; /api/*, /p/*, /sitemap.xml and /feed.xml run server/worker.js.
+{
+  "name": "hotdropic",
+  "main": "server/worker.js",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  // Rebuilds the images from assets/b64 and checks the catalog before every deploy.
+  "build": { "command": "node scripts/build.mjs" },
+  // Orders, settings and the trending catalog. Cloudflare creates this database automatically on the
+  // first deploy (free plan). Leave out an id so it's found by name.
+  "d1_databases": [{ "binding": "DB", "database_name": "hotdropic" }],
+  // Every 30 minutes: trend scanner, daily promo post, order follow-up (server/lib/cron.js).
+  "triggers": { "crons": ["*/30 * * * *"] },
+  // Keep the keys you add in the Cloudflare dashboard (Stripe, Printful, CJ, social) on every deploy.
+  "keep_vars": true,
+  "observability": { "enabled": true }
+}

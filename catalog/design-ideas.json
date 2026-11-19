@@ -1,0 +1,4 @@
+{
+  "_guide": "New meme shirt ideas from the AI trend hunter, waiting for Maddox's OK. Each idea is a complete catalog/designs.json entry plus why/src. To publish one: ask Claude 'make the new Hot Dropic designs' in a session with your hotdropic GitHub Desktop folder connected. Claude moves it into designs.json, renders it with scripts/make-designs.py, checks how it looks, and commits; then click Push origin. Ideas older than 3 weeks can be deleted.",
+  "ideas": []
+}

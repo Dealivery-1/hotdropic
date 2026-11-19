@@ -1,0 +1,8 @@
+# Copy to .dev.vars for `npm run dev` (never commit .dev.vars). On the live site these go in
+# Cloudflare: Workers & Pages > hotdropic > Settings > Variables and Secrets.
+ADMIN_PASSWORD=pick-a-long-password
+STRIPE_SECRET_KEY=sk_test_...
+# STRIPE_WEBHOOK_SECRET=whsec_...   (only if you make the webhook by hand; the admin button does it for you)
+PRINTFUL_API_KEY=
+CJ_API_KEY=
+SITE_URL=http://localhost:8787

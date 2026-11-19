@@ -1,0 +1,15 @@
+{
+  "_guide": "The tabs across the top of the store, in order. 'auto' tabs fill themselves: 'trending' = highest trend score across everything, 'under:2500' = everything under $25.00. Every other tab shows products whose category matches its id. Products come from catalog/designs.json (meme apparel) and from the trend scanner (catalog/trends.json keywords -> CJ Dropshipping).",
+  "categories": [
+    { "id": "trending", "label": "Trending", "icon": "🔥", "auto": "trending", "blurb": "The hottest stuff right now, ranked by our trend scanner and refreshed automatically." },
+    { "id": "meme-tees", "label": "Meme Tees", "icon": "👕", "blurb": "Original tees and hoodies for the memes everyone is quoting. Printed on demand just for you." },
+    { "id": "tech", "label": "Tech & Gadgets", "icon": "📱", "blurb": "Phone gear, chargers and gadgets blowing up right now." },
+    { "id": "room", "label": "Room & LED", "icon": "💡", "blurb": "Projectors, lamps and lights for the room glow-up." },
+    { "id": "beauty", "label": "Beauty & Self-Care", "icon": "💅", "blurb": "Viral beauty tools and little luxuries." },
+    { "id": "toys", "label": "Fidgets & Toys", "icon": "🧸", "blurb": "Squishies, fidgets and desk toys for big kids." },
+    { "id": "pets", "label": "Pets", "icon": "🐾", "blurb": "Stuff your pet didn't know it needed." },
+    { "id": "home", "label": "Home & Kitchen", "icon": "🏠", "blurb": "Clever kitchen and home finds." },
+    { "id": "cozy", "label": "Cozy Season", "icon": "🧣", "blurb": "Warm, soft and made for staying in." },
+    { "id": "under-25", "label": "Under $25", "icon": "💸", "auto": "under:2500", "blurb": "Cheap thrills. Great gifts." }
+  ]
+}

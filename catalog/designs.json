@@ -1,0 +1,638 @@
+{
+  "_guide": "Meme apparel, printed on demand by Printful (no inventory). Each design becomes one product per style (tee, hoodie). Art is made by scripts/make-designs.py from the 'art' + 'palette' fields: it writes print files to public/designs/<id>-<variant>.png and mockups to public/img/products/<id>-<style>-<color>.jpg (plus text copies in assets/b64/ so the GitHub connector can commit them). RULES: original art only. No copyrighted characters, logos, brand names, real people's names/faces/quotes, or song lyrics. No tragedies, politics, slurs or anything sexual. See CLAUDE.md.",
+  "styles": {
+    "tee": {
+      "label": "Tee",
+      "printful": {
+        "productId": 71,
+        "brand": "Bella + Canvas",
+        "model": "3001"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "price": {
+        "default": 2699,
+        "2XL": 2899,
+        "3XL": 2999
+      },
+      "estCost": {
+        "default": 1192,
+        "2XL": 1392,
+        "3XL": 1592
+      },
+      "estShipping": 475,
+      "shipDays": [
+        5,
+        10
+      ],
+      "details": [
+        "Bella+Canvas 3001 unisex tee: soft combed ring-spun cotton, retail fit",
+        "Printed on demand just for you (no warehouse, no waste)",
+        "Runs true to size. Size up for a looser fit"
+      ]
+    },
+    "hoodie": {
+      "label": "Hoodie",
+      "printful": {
+        "productId": 146,
+        "brand": "Gildan",
+        "model": "18500"
+      },
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "price": {
+        "default": 4999,
+        "2XL": 5299,
+        "3XL": 5499
+      },
+      "estCost": {
+        "default": 2350,
+        "2XL": 2650,
+        "3XL": 2850
+      },
+      "estShipping": 819,
+      "shipDays": [
+        5,
+        10
+      ],
+      "details": [
+        "Gildan 18500 heavy blend hoodie: 50/50 cotton-poly, double-lined hood, front pouch pocket",
+        "Printed on demand just for you",
+        "Classic fit. Size up for an oversized look"
+      ]
+    }
+  },
+  "designs": [
+    {
+      "id": "fih",
+      "name": "fih",
+      "blurb": "It's a fish. We know. The misspelled-fish meme in big chunky letters, with an original little guy who is doing his best.",
+      "trendNote": "The 'fih' meme has been all over TikTok and Instagram since mid-2025.",
+      "tags": [
+        "fih",
+        "fish",
+        "brainrot",
+        "meme",
+        "funny"
+      ],
+      "score": 97,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "stack",
+        "icon": "fish",
+        "lines": [
+          {
+            "t": "fih",
+            "font": "black"
+          }
+        ],
+        "caption": "it's a fish. we know.",
+        "outline": true,
+        "shadow": true
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#4FC3FF",
+          "accent2": "#FF7A3D",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#1E88E5",
+          "accent2": "#FF5722",
+          "outline": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "fih-calling",
+      "name": "fih is calling",
+      "blurb": "Incoming call from fih. Decline at your own risk. An original take on the call-screen meme format.",
+      "trendNote": "Call-screen memes plus 'fih' = the most-requested fih shirt.",
+      "tags": [
+        "fih",
+        "fish",
+        "calling",
+        "meme",
+        "brainrot"
+      ],
+      "score": 95,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "call",
+        "icon": "fish",
+        "caller": "fih",
+        "status": "incoming call..."
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#4FC3FF",
+          "accent2": "#FF7A3D",
+          "outline": "#0B0B0F",
+          "muted": "#B8C0CC"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#1E88E5",
+          "accent2": "#FF5722",
+          "outline": "#FFFFFF",
+          "muted": "#555B66"
+        }
+      }
+    },
+    {
+      "id": "fih-navidad",
+      "name": "fih navidad",
+      "blurb": "Feliz fih-mas. The fih, now in a Santa hat. Your new holiday party shirt.",
+      "trendNote": "Holiday spin on the fih meme, made for December.",
+      "tags": [
+        "fih",
+        "christmas",
+        "holiday",
+        "navidad",
+        "fish",
+        "gift"
+      ],
+      "score": 93,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "stack",
+        "icon": "fish-santa",
+        "lines": [
+          {
+            "t": "fih",
+            "font": "black"
+          },
+          {
+            "t": "navidad",
+            "font": "retro",
+            "size": 0.8
+          }
+        ],
+        "caption": "feliz fih-mas",
+        "outline": true,
+        "shadow": true
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#4FC3FF",
+          "accent2": "#E53935",
+          "outline": "#0B0B0F",
+          "line2": "#7CFC9A"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#1E88E5",
+          "accent2": "#D32F2F",
+          "outline": "#FFFFFF",
+          "line2": "#1B8A3A"
+        }
+      }
+    },
+    {
+      "id": "six-seven",
+      "name": "6 7",
+      "blurb": "You said it. You did the hands. We all saw. The number meme that took over every classroom.",
+      "trendNote": "'6 7' became one of the biggest kid and teen memes of the decade.",
+      "tags": [
+        "67",
+        "six seven",
+        "brainrot",
+        "meme",
+        "gen alpha"
+      ],
+      "score": 86,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "seesaw",
+        "left": "6",
+        "right": "7",
+        "caption": "(you did the hands. we saw.)"
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#C6FF00",
+          "accent2": "#FF2D95",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#6A8F00",
+          "accent2": "#E0157A",
+          "outline": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "bicep-heart",
+      "name": "Bicep Heart Club",
+      "blurb": "Flex it into a heart. A badge for the wholesome gym-pose trend everyone is copying right now.",
+      "trendNote": "The bicep-heart pose went from gym trend to everywhere in November 2026.",
+      "tags": [
+        "bicep heart",
+        "gym",
+        "flex",
+        "wholesome",
+        "meme"
+      ],
+      "score": 90,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "badge",
+        "icon": "heart",
+        "ring": "BICEP HEART CLUB  *  EST. 2026  *  ",
+        "center": "FLEX IT"
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#FF2D55",
+          "accent2": "#FFD166",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#E0153B",
+          "accent2": "#E09B00",
+          "outline": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "pterodactyl",
+      "name": "Pterodactyl Sighting Club",
+      "blurb": "Mexico, 2026. We know what we saw. For the true believers of the latest dinosaur sighting meme.",
+      "trendNote": "Dinosaurs-in-Mexico memes took off after a viral 'pterodactyl' video in November 2026.",
+      "tags": [
+        "pterodactyl",
+        "dinosaur",
+        "mexico",
+        "sighting",
+        "meme"
+      ],
+      "score": 88,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "badge",
+        "icon": "pterodactyl",
+        "ring": "PTERODACTYL SIGHTING CLUB  *  MEXICO 2026  *  ",
+        "center": "WE KNOW WHAT WE SAW"
+      },
+      "palette": {
+        "dark": {
+          "text": "#F4E9D8",
+          "accent": "#FF8A3D",
+          "accent2": "#7FD1B9",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#2B2118",
+          "accent": "#D9622B",
+          "accent2": "#2E8B73",
+          "outline": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "no-clankers",
+      "name": "No Clankers",
+      "blurb": "Humans only beyond this point. The robot-roasting slang, as an official-looking sign.",
+      "trendNote": "'Clanker' stuck around as the internet's favorite word for robots and AI.",
+      "tags": [
+        "clanker",
+        "robot",
+        "ai",
+        "meme",
+        "funny"
+      ],
+      "score": 84,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "sign",
+        "icon": "robot",
+        "lines": [
+          {
+            "t": "NO CLANKERS",
+            "font": "narrow"
+          }
+        ],
+        "caption": "humans only beyond this point"
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#FF3B30",
+          "accent2": "#9AA4B2",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#E0281D",
+          "accent2": "#5B6573",
+          "outline": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "aura",
+      "name": "+1000 Aura",
+      "blurb": "Walk in. Gain aura. Leave. For people who never lose aura points (or pretend not to).",
+      "trendNote": "Aura points are still the internet's favorite way to keep score.",
+      "tags": [
+        "aura",
+        "aura points",
+        "meme",
+        "slang"
+      ],
+      "score": 85,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "stack",
+        "icon": "sparkles",
+        "lines": [
+          {
+            "t": "+1000",
+            "font": "black"
+          },
+          {
+            "t": "AURA",
+            "font": "black",
+            "size": 0.9
+          }
+        ],
+        "caption": "no further questions",
+        "outline": true,
+        "shadow": true
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#B388FF",
+          "accent2": "#FFD54F",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#6A1BFF",
+          "accent2": "#E0A800",
+          "outline": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "certified-unc",
+      "name": "Certified Unc",
+      "blurb": "Earned, not given. For the friend who says 'back in my day' about 2019.",
+      "trendNote": "'Unc' is the slang compliment (and roast) of the year.",
+      "tags": [
+        "unc",
+        "certified unc",
+        "slang",
+        "funny",
+        "gift"
+      ],
+      "score": 83,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "stack",
+        "icon": "stars",
+        "lines": [
+          {
+            "t": "CERTIFIED",
+            "font": "retro",
+            "size": 0.62
+          },
+          {
+            "t": "UNC",
+            "font": "black"
+          }
+        ],
+        "caption": "earned, not given",
+        "outline": true,
+        "shadow": true
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#FFB300",
+          "accent2": "#FF6E40",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#E09B00",
+          "accent2": "#E64A19",
+          "outline": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "locked-in",
+      "name": "Locked In",
+      "blurb": "Do not disturb. Currently locked in. For the gym, finals week, or the group project nobody else is doing.",
+      "trendNote": "'Locking in' is the go-to motivation slang on TikTok.",
+      "tags": [
+        "locked in",
+        "lock in",
+        "gym",
+        "study",
+        "motivation"
+      ],
+      "score": 80,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "stack",
+        "icon": "lock",
+        "lines": [
+          {
+            "t": "LOCKED",
+            "font": "black"
+          },
+          {
+            "t": "IN",
+            "font": "black",
+            "size": 0.42
+          }
+        ],
+        "caption": "do not disturb",
+        "outline": true,
+        "shadow": true
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#00E5FF",
+          "accent2": "#FF3D2E",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#0097A7",
+          "accent2": "#E0281D",
+          "outline": "#FFFFFF"
+        }
+      }
+    },
+    {
+      "id": "brainrot",
+      "name": "100% Brainrot",
+      "blurb": "Fully certified. No notes. Wear your screen time with pride.",
+      "trendNote": "'Brainrot' went from insult to identity.",
+      "tags": [
+        "brainrot",
+        "meme",
+        "gen z",
+        "funny"
+      ],
+      "score": 82,
+      "added": "2026-11-18",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "stack",
+        "icon": "brain",
+        "lines": [
+          {
+            "t": "100%",
+            "font": "black",
+            "size": 0.72
+          },
+          {
+            "t": "BRAINROT",
+            "font": "black"
+          }
+        ],
+        "caption": "fully certified. no notes.",
+        "outline": true,
+        "shadow": true
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#FF8FB1",
+          "accent2": "#C6FF00",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#E0457B",
+          "accent2": "#6A8F00",
+          "outline": "#FFFFFF"
+        }
+      }
+    }
+  ]
+}

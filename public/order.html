@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0b0f">
+<meta name="robots" content="noindex">
+<title>Your order | The Hot Dropic</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/css/styles.css">
+<script type="module" src="/js/order.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="/" aria-label="The Hot Dropic home"><img src="/img/logo.svg" alt="The Hot Dropic" width="300" height="34"></a>
+</header>
+<main class="page" id="page">
+  <section id="result" hidden></section>
+  <section id="trackbox">
+    <h1>Track your order</h1>
+    <p class="meta">Enter the order number from your confirmation page or Stripe receipt (it starts with HD) and the email you used at checkout.</p>
+    <form class="panel" id="track">
+      <div class="field"><label for="oid">Order number</label><input id="oid" required placeholder="HD..." autocomplete="off" maxlength="12"></div>
+      <div class="field"><label for="oemail">Email</label><input id="oemail" type="email" required autocomplete="email"></div>
+      <p class="err" id="trackerr" role="alert" hidden></p>
+      <button class="btn hot" type="submit">Find my order</button>
+    </form>
+  </section>
+</main>
+<footer class="foot"><div class="foot-in"><nav><a href="/">Shop</a><a href="/shipping">Shipping &amp; returns</a><a href="/terms">Terms</a><a href="/privacy">Privacy</a><a href="mailto:wolfmaddox07@gmail.com">Contact</a></nav></div></footer>
+</body>
+</html>
