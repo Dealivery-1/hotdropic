@@ -1,4 +1,120 @@
 {
   "_guide": "New meme shirt ideas from the AI trend hunter, waiting for Maddox's OK. Each idea is a complete catalog/designs.json entry plus why/src. To publish one: ask Claude 'make the new Hot Dropic designs' in a session with your hotdropic GitHub Desktop folder connected. Claude moves it into designs.json, renders it with scripts/make-designs.py, checks how it looks, and commits; then click Push origin. Ideas older than 3 weeks can be deleted.",
-  "ideas": []
+  "ideas": [
+    {
+      "id": "cozymaxxing",
+      "name": "Cozymaxxing",
+      "blurb": "Blanket on. Plans off. Fully maxxing. For the person who treats staying in like a sport.",
+      "trendNote": "'Maxxing' was named a 2026 Word of the Year, and 'cozymaxxing' is its comfiest spin-off.",
+      "tags": [
+        "cozymaxxing",
+        "maxxing",
+        "cozy",
+        "slang",
+        "meme"
+      ],
+      "score": 84,
+      "added": "2026-11-20",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "stack",
+        "icon": "stars",
+        "lines": [
+          {
+            "t": "COZY",
+            "font": "retro",
+            "size": 0.7
+          },
+          {
+            "t": "MAXXING",
+            "font": "black"
+          }
+        ],
+        "caption": "blanket on. plans off.",
+        "outline": true,
+        "shadow": true
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#FFB74D",
+          "accent2": "#FF8A65",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#E08A00",
+          "accent2": "#D84315",
+          "outline": "#FFFFFF"
+        }
+      },
+      "why": "'Maxxing' is Dictionary.com's 2026 Word of the Year and cozy season is here, so a cozymaxxing hoodie is an easy winter gift.",
+      "src": "https://www.cbsnews.com/news/maxxing-2026-word-of-the-year-dictionary/"
+    },
+    {
+      "id": "i-got-so-mad",
+      "name": "I Got So Mad",
+      "blurb": "I got so mad I went to bed at 9pm. The most dramatic act of rage ever recorded, now on a shirt.",
+      "trendNote": "The 'I got so mad I...' format took over TikTok in November 2026.",
+      "tags": [
+        "i got so mad",
+        "mad",
+        "meme",
+        "funny",
+        "gift"
+      ],
+      "score": 80,
+      "added": "2026-11-20",
+      "styles": [
+        "tee",
+        "hoodie"
+      ],
+      "colors": {
+        "Black": "dark",
+        "White": "light"
+      },
+      "defaultColor": "Black",
+      "art": {
+        "recipe": "stack",
+        "lines": [
+          {
+            "t": "I GOT",
+            "font": "heavy",
+            "size": 0.55
+          },
+          {
+            "t": "SO MAD",
+            "font": "black"
+          }
+        ],
+        "caption": "i went to bed at 9pm",
+        "outline": true,
+        "shadow": true
+      },
+      "palette": {
+        "dark": {
+          "text": "#FFFFFF",
+          "accent": "#FF3D2E",
+          "accent2": "#FFD166",
+          "outline": "#0B0B0F"
+        },
+        "light": {
+          "text": "#111111",
+          "accent": "#E0281D",
+          "accent2": "#E09B00",
+          "outline": "#FFFFFF"
+        }
+      },
+      "why": "The format is all over TikTok this month, and this punchline is wholesome enough to gift to anyone.",
+      "src": "https://trending.knowyourmeme.com/editorials/guides/whats-the-i-got-so-mad-meme-the-viral-trend-about-absurd-ways-to-express-anger-explained"
+    }
+  ]
 }

@@ -1,12 +1,13 @@
 {
   "_guide": "Posts the daily auto-promoter uses instead of writing its own. One per date (US Eastern). 'product' is an optional product id from the store (the post links to it and uses its photo); without it the post links to the home page. Leave links out of the text (the poster adds a tracked link). No made-up discounts, prices or claims. The AI trend hunter refills this twice a week.",
   "posts": [
-    { "date": "2026-11-19", "product": "fih-tee", "text": "it's a fish. we know. 🐟 The fih tee is here, with an original little guy who is doing his best. #TheHotDropic #fih #memes" },
     { "date": "2026-11-20", "product": "bicep-heart-tee", "text": "Flex it into a heart 💪❤️💪 The Bicep Heart Club tee, for the wholesome gym trend everyone is copying. #TheHotDropic #bicepheart #gymtok" },
     { "date": "2026-11-21", "product": "pterodactyl-tee", "text": "Mexico, 2026. We know what we saw. 🦖 Pterodactyl Sighting Club tees are live. #TheHotDropic #pterodactyl #memes" },
     { "date": "2026-11-22", "product": "fih-navidad-tee", "text": "Feliz fih-mas 🎄🐟 The fih navidad tee is your new holiday party shirt. #TheHotDropic #fih #christmasshirt" },
-    { "date": "2026-11-23", "product": "fih-calling-tee", "text": "Incoming call: fih 📞 Decline at your own risk. #TheHotDropic #fih #memeshirt" },
-    { "date": "2026-11-24", "product": "certified-unc-tee", "text": "Know someone who says 'back in my day' about 2019? Certified Unc tee, earned not given. 🎁 #TheHotDropic #unc #giftideas" },
-    { "date": "2026-11-25", "product": "no-clankers-hoodie", "text": "Humans only beyond this point 🤖🚫 The No Clankers hoodie just dropped. #TheHotDropic #clanker #memes" }
+    { "date": "2026-11-23", "text": "New in Cozy Season: crocodile slippers 🐊 Your feet, but make them chompy. #TheHotDropic #cozyseason" },
+    { "date": "2026-11-24", "product": "certified-unc-tee", "text": "'Unc' made a 2026 Word of the Year shortlist. Know someone who earned it? 🎁 Certified Unc tee. #TheHotDropic #unc #giftideas" },
+    { "date": "2026-11-25", "text": "Traveling for Thanksgiving? ✈️ New in Cozy Season: memory foam neck pillows for the drive or the flight. #TheHotDropic #thanksgiving" },
+    { "date": "2026-11-26", "product": "fih-hoodie", "text": "Happy Thanksgiving 🦃 Thankful for family, leftovers and the fih. 🐟 #TheHotDropic #fih #thanksgiving" },
+    { "date": "2026-11-27", "text": "Skipping the Black Friday crowds? Same. 🛋️ Meme tees, room glow-ups and cozy finds, shopped from the couch. #TheHotDropic #giftideas" }
   ]
 }
